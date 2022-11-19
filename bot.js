@@ -25,6 +25,9 @@ async function boost(msg) {
     }
 }
 
-m.stream('streaming/hashtag', {tag: '툿친소'}).on('message', boost);
-m.stream('streaming/hashtag', {tag: '뿌친소'}).on('message', boost);
-m.stream('streaming/hashtag', {tag: '마친소'}).on('message', boost);
+m.stream('streaming/hashtag', {tag: 'FF14_툿친소'}).on('message', boost);
+m.stream('streaming/hashtag', {tag: '파판14_툿친소'}).on('message', boost);
+m.stream('streaming/hashtag', {tag: 'FF14_마친소'}).on('message', boost);
+m.stream('streaming/hashtag', {tag: '파판14_마친소'}).on('message', boost);
+m.stream('streaming/hashtag', {tag: 'FF14_뿌친소'}).on('message', boost);
+m.stream('streaming/hashtag', {tag: '파판14_뿌친소'}).on('message', boost);
